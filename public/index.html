@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/underscore.js"></script>
+    <script src="js/lib/jquery.tmpl.js"></script>
+    <script src="js/lib/knockout.js"></script>
+    <script src="js/client-main.js"></script>
+    <title></title>
+</head>
+<body>
+    <div id="main" data-bind="template: 'main-template'"></div>
+
+    <script type="text/html" id="main-template">
+        <div>this is from the template ${val}</div>
+    </script>
+</body>
+</html>
